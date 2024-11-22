@@ -1,0 +1,15 @@
+<div class="card">
+    <mat-icon class="card-icon">{{ icon }}</mat-icon>
+    <h3 class="card-title">{{ title }}</h3>
+  
+    <!-- Display the description based on the expanded state -->
+    <p class="card-description">
+      {{ expanded ? fullDescription : shortDescription }}
+    </p>
+  
+    <!-- "Read More" or "Read Less" link -->
+    <a href="#" class="card-link" (click)="toggleExpanded($event)">
+      {{ expanded ? 'Read less' : 'Read more' }}
+    </a>
+  </div>
+  
