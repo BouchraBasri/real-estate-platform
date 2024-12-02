@@ -1,18 +1,21 @@
-
-
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     padding: 10px 20px;
-    background-color: #004d44; /* Dark greenish-blue color */
+    background-color: #004d44; 
     color: white;
-    position: relative;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
 
 .logo {
     font-size: 1.5rem;
     font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .nav ul {
@@ -20,6 +23,7 @@
     margin: 0;
     padding: 0;
     display: flex;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .nav ul li {

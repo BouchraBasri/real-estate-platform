@@ -10,6 +10,12 @@ import { CardComponent } from './components/card/card.component';
 import { HttpClientModule } from '@angular/common/http';
 import { HomeComponent } from './components/home/home.component';
 import { MatIconModule } from '@angular/material/icon'; 
+import { AgentsComponent } from './components/agents/agents.component';
+import { AboutUsComponent } from './components/about-us/about-us.component';
+import { CustomerReviewComponent } from './components/customer-review/customer-review.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { LoginComponent } from './components/login/login.component';
+import { RecentPropComponent } from './components/recent-prop/recent-prop.component';
 
 
 @NgModule({
@@ -19,7 +25,13 @@ import { MatIconModule } from '@angular/material/icon';
     NavbarComponent,
     HeroComponent,
     ServicesComponent,
-    CardComponent
+    CardComponent,
+    AgentsComponent,
+    AboutUsComponent,
+    CustomerReviewComponent,
+    FooterComponent,
+    LoginComponent,
+    RecentPropComponent,
   ],
   imports: [
     BrowserModule,
